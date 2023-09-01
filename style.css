@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    background-color:#abb8c3;
+    height: 2000px;
+    
+}
+header{
+    width: 100%;
+    
+    background-color: #f9f9f9;
+    padding: 10px 0px;
+    position: fixed;
+    z-index: 999;
+    
+
+}
+.logo{
+   
+    width: 19%;
+    float: right;
+    text-align: center;
+    
+    
+}
+.search{
+    
+    width: 38%;
+    float: right;
+    padding: 10px;
+   
+}
+.search input{
+    width: 100%;
+    font-size: 18px;
+}
+.button{
+   
+    width: 28%;
+    float: right;
+    
+    padding:10px 60px;
+    
+}
+.button button{
+    padding: 7px 10px;
+    background-color: green;
+    color: white;
+    margin-left: 40px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+.button button.bo1{
+    background-color: rgb(131, 131, 216);
+    border: 1px solid rgb(131, 131, 216) ;
+}
+.clr{
+    clear: both;
+}
+/* menu */
+.menu{
+   
+    width: 17%;
+    margin-left: 50px;
+    background-color: white;
+    position: fixed;
+    margin-top: 100px;
+    
+    
+
+}
+.menu ul{
+    list-style: none;
+   
+    
+    font-size: 20px;
+    padding: 0px;
+    
+}
+.menu ul li{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.837);
+    padding: 5px 5px;
+}
+.menu ul li a {
+     text-decoration: none;
+     font-size: 30px;
+   
+}
+
+/* menu */
+/* menu2 */
+.menu2{
+    width: 17%;
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 5px;
+    top: 95px;
+    text-align: center;
+    position: fixed;
+
+}
+.menu2 p{
+    color: blue;
+    font-size: 18px;
+}
+.films{
+    
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    width: 50%;
+    background-color: white;
+  
+}
+.films h1{
+    text-align: center;
+   
+}
+
+.film{
+    width: 23%;
+   
+    text-align: center;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: white;
+}
+.film a{
+    font-size: 20px;
+}
